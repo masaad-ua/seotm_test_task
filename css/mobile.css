@@ -1,0 +1,13 @@
+/*Начало Header*/
+header {
+    background-image: url(../images/girl.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-bottom: solid 3px #0798c7;
+    position: relative;
+    padding-bottom: 27%;
+}
