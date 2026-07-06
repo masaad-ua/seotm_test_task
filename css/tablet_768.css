@@ -1,0 +1,299 @@
+body {
+    /* background: red; */
+}
+
+/*Start Header*/
+.header {
+    padding-bottom: 40%;
+    background-image: url(../images/header_woman_768.jpg);
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    padding: 0 16px;
+}
+
+.nav_list {
+    width: 100%;
+}
+
+.nav_list_item_link{
+    opacity: 1;
+    font-size: 15px;
+}
+
+.nav_list_item:nth-child(8){
+    display: none;
+}
+
+.logo {
+    width: 17.5%;
+    top: 23.4%;
+    left: 16%;
+}
+
+.slogan {
+    font-size: 12px;
+    position: absolute;
+    top: 65%;
+    left: 15.7%;
+    line-height: 1.4;
+}
+
+.network_wrapper{
+    width: 26.2%;
+    top: 82.5%;
+    left: 15%;
+}
+
+.clinics {
+    width: 29.3%;
+    position: absolute;
+    top: 14%;
+    left: auto;
+    right: 0%;
+}
+
+.green_link_wrapper,
+.blue_link_wrapper{
+    width: 100%;
+    height: 38px;
+}
+
+.green_link_wrapper{
+    background: #d0e4a9;
+    background: linear-gradient(to right, #d0e4a9 5%,#a9cd39 28%,#ecf6fb 114%);
+    margin-top: 25%;
+}
+
+.blue_link_wrapper{
+    background: #7ee5f2;
+    background: linear-gradient(to right, #7ee5f2 5%,#24d7eb 28%,#ecf6fb 114%);
+    margin-top: 16.4%;
+}
+
+.green_link,
+.blue_link {
+    padding-top: 2.1%;
+    padding-bottom: 1.5%;
+    padding-left: 16.6%;
+    font-size: 11px;
+}
+
+.green_link_circle,
+.blue_link_circle{
+    width: 60px;
+    height: 60px;
+    top: -30%;
+    left: -14%;
+}
+
+.language_wrapper {
+    margin-top: 3.6%;
+    text-align: right;
+    margin-right: 14%;
+}
+
+.language_link {
+    color: #a8bec7;
+    font-size: 10px;
+    margin-right: 0.9%;
+}
+
+/*Start Services*/
+.clause_article_title {
+    margin-bottom: 3.3%;
+}
+.services {
+    height: 34.6vw;
+    justify-content: flex-start;
+    padding-top: 3.2%;
+}
+.service_section{
+    width: 88%;
+    /* padding: 0px 6%; */
+}
+
+.figcaption {
+    font-size: 13px;
+    margin-top: 13px;
+}
+/*End Services */
+
+/*Start Article*/
+.clause_article {
+    width: 91%;
+    margin-bottom: 4%;
+}
+
+.clause_article img {
+    width: 35.95%;
+    margin-top: 5.08%;
+}
+
+.clause_article_text_wrapper {
+    text-align: left;
+    margin-right: 2%;
+    margin-top: 4.1%;
+    margin-left: 4.3%;
+    min-width: 420px;
+}
+.clause_article_text{
+    font-size: 12px;
+    text-indent: 9%;
+    line-height: 1.2;
+}
+
+.clause_article_text:nth-child(4) {
+    margin-bottom: 0.6%;
+}
+
+.clause_article_text:nth-child(6){
+    margin-top: 14px;
+    text-indent: 0;
+}
+
+.clause {
+    background-image: url(../images/fon_article_768.jpg);
+}
+/*End Article*/
+/*Start PhotoGallery*/
+.photo_gallery_wrapper{
+    width: 88.3%;
+}
+.title_photo_gallery {
+    margin-top: 13px;
+}
+.photo_gallery_container{
+    height: auto;
+}
+.slide_points {
+    margin-top: 2.7%;
+    margin-bottom: 4.9%;
+    width: 10.3%;
+}
+
+.slides_wrapper {
+    margin-top: 2.1%;
+}
+/*End PhotoGallery*/
+/***********/
+/*Start News*/
+.news_section {
+    width: 88.3%;
+}
+
+.news_title{
+    margin-top: 1.5%;
+}
+
+.news_article_wrapper{
+    margin-top: 1.5%;
+    margin-bottom: 2.5%;
+}
+
+.article_title{
+    font-size: 16px;
+}
+
+.news_text {
+    margin-top: 5.3%;
+    margin-bottom: 1.8%;
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.news_article:nth-child(2) .article_title,
+.news_article:nth-child(3) .article_title {
+    margin-top: 5%;
+}
+.news_article .news_article_data p{
+     font-size: 12px;
+     margin-top: 1%;
+}
+.news_article_data a {
+    width: 7%;
+    margin: 0 0 0 0%;
+}
+
+/*End News */
+/*Start Footer */
+.footer_wrapper {
+    width: 90.3%;
+    padding: 1.4% 0 3% 0;
+    justify-content: flex-start;
+}
+.footer_section{
+     width: auto;   
+}
+.footer_section:nth-child(1){
+    padding-left: 7px;
+    padding-top: 0px;
+    width: auto;
+    margin-right: 3.4%;
+}
+
+.footer_section:nth-child(2){
+    padding-left: 0px;
+    padding-top: 11px;
+    margin-right: 6%;
+}
+.footer_section:nth-child(3){
+    padding-left: 0px;
+    padding-top: 19px;
+}
+.footer_section:nth-child(3) .contacts_container{
+    margin-top: 20px;
+}
+.title_h3_footer{
+    font-size: 15px;
+}
+.network_buttons img {
+    width: 35px;
+    height: 35px;
+    opacity: 0.8;
+    margin-right: 22px;
+}
+
+.network_buttons img:nth-last-child{
+    margin-right: 0%;
+}
+
+.network_link_button  {
+    margin-top: 3px;
+    margin-left: 0;
+    width: 152px;
+    height: 31px;
+}
+.text_button {
+    font-size: 14px;
+}
+.contact_wrapper {
+    width: auto;
+}
+.footer_section:nth-child(2) .contact_wrapper:nth-child(2) {
+    margin-top: 17%;
+}
+
+.footer_section:nth-child(2) .icon{
+    margin-right: 13px;
+}
+
+.network_buttons{
+    margin-top: 8%;
+}
+.right_text{
+    margin-top: 20px;
+}
+
+.footer_section:nth-child(2) .contacts_container{
+    margin-top: 23px;
+}
+
+.phone_contact_wrapper{
+    padding-left: 0%;
+}
+
+
+/*End Footer*/

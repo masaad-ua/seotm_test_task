@@ -97,3 +97,19 @@ p, a, h3, h2{
     font-size: 20px;
     font-weight: normal;
 }
+@media screen and (min-width: 1920px){
+    .hide_in_desktop{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1920px){
+    .hide_in_tablet_768{
+        display: none;
+    }
+    .title_h2 {
+        font-size: 22px;
+    }
+}
+
+
