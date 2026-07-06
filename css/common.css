@@ -113,3 +113,12 @@ p, a, h3, h2{
 }
 
 
+@media screen and (min-width: 768px) and (max-width: 1920px){
+    .hide_in_tablet_768{
+        display: none;
+    }
+    .title_h2 {
+            font-size: 22px;
+    }
+}
+

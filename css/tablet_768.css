@@ -101,6 +101,39 @@ body {
     margin-right: 0.9%;
 }
 
+.point_wrapper {
+    width: 25%;///
+    /*width: 15.739385%;*/
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    top: 14%;
+    left: 41.1%;
+}
+
+.point:first-child{
+    margin-top: 9%;
+    margin-left: 46%;
+}
+.point:nth-child(2){
+    margin-top: 8.8%;
+    margin-left: 66%;
+}
+.point:nth-child(3){
+    margin-top: 8.9%;
+    margin-left: 58.1%;
+}
+.point:nth-child(4){
+    margin-top: 10.9%;
+    margin-left: 66.4%;
+}
+.point:nth-child(5){
+    margin-top: 17%;
+    margin-left: 55%;
+}
+
+/*End Header*/
 /*Start Services*/
 .clause_article_title {
     margin-bottom: 3.3%;
@@ -222,7 +255,7 @@ body {
 .footer_wrapper {
     width: 90.3%;
     padding: 1.4% 0 3% 0;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .footer_section{
      width: auto;   
@@ -273,7 +306,7 @@ body {
     width: auto;
 }
 .footer_section:nth-child(2) .contact_wrapper:nth-child(2) {
-    margin-top: 17%;
+    margin-top: 12%;
 }
 
 .footer_section:nth-child(2) .icon{
